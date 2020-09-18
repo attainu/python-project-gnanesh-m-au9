@@ -16,4 +16,4 @@ Bitcoin Price Notification is a Python script to notify user about latest Bitcoi
 
 ### Notification 
 1. If current price of the bitcoin is less than the Threshold price, then send *post* request to the webhook url along with current price of bitcoin.
-2. for **gmail** and **telegram** store the previous bitcoin prices in regular time intervals in a list, and send it to gmail and telegram using webhook url of respective events.
+2. for **gmail** and **telegram** notifications, store the previous bitcoin prices in regular time intervals in a list, and send it to gmail and telegram using webhook url of respective events.
