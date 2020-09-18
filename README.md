@@ -67,4 +67,9 @@ here 10750 is the threshold price we are setting, and USD is the type of currenc
 * [Coindesk API](https://api.coindesk.com/v1/bpi/currentprice.json)
 * [Ifttt API](https://ifttt.com/home)
 
+### Future Aspect
+* Creating Graphical User Interface for this app.
+* Extending this app to other popular crypto currencies.
+
+
 
