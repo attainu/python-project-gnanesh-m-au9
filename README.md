@@ -33,10 +33,16 @@ $ python bitcoin_notifications.py --help
 **step4**
 * You see the below options
 ```python
-Threshold_Price    Enter your Threshold price
-currency_type      Enter your currency type
-Notification_Type  Enter the Notification type 
+Threshold_Price  int  Enter your Threshold price
+currency_type   str   Enter your currency type
+Notification_Type str Enter the Notification type 
 ```
+**step5**
+* Example:
+```python
+$ python bitcoin_notifications.py 10750 USD telegram
+```
+here 10750 is the threshold price we are setting, and USD is the type of currency in which we want to see the price, we have EUR,GBP also has options for currency,'telegram' is the notificatin type which we wanted, we have gmail also has option for notifications.
 
 ### Target Applications
 1. Telegram
